@@ -94,7 +94,8 @@ const Services: React.FC = () => {
                 }`}
               >
                 <div className={`p-3 rounded-lg transition-colors ${activeTabId === service.id ? 'bg-accent text-white' : 'bg-blue-50 text-[#031441]'}`}>
-                  {React.cloneElement(service.icon as React.ReactElement, { size: 24 })}
+                  {/* Fixed: Cast to any to allow size prop in cloneElement to resolve TS error */}
+                  {React.cloneElement(service.icon as React.ReactElement<any>, { size: 24 })}
                 </div>
                 <span className="font-bold text-lg">{service.title}</span>
               </button>

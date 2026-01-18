@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Phone, Mail, MapPin, ChevronUp, Search } from 'lucide-react';
+import { Menu, X, Phone, Mail, MapPin, ChevronUp, Search, Facebook } from 'lucide-react';
 import { NAVIGATION, CONTACT_INFO, SOCIAL_LINKS, COLORS, } from '../constants';
 
 const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
@@ -40,11 +40,11 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
           <div className="flex items-center space-x-4">
             <span>Visit Our Social Pages:</span>
             <div className="flex space-x-3">
-                {SOCIAL_LINKS.map((link, idx) => (
-                    <a key={idx} href={link.url} className="hover:text-accent transition-colors" target="_blank" rel="noopener noreferrer">
-                        {link.icon}
+           
+                    <a href="#" className="hover:text-accent transition-colors" target="_blank" rel="noopener noreferrer">
+                        <Facebook size={18} />
                     </a>
-                ))}
+            
             </div>
           </div>
         </div>

@@ -22,7 +22,8 @@ const ContactPage: React.FC = () => {
            ].map((item, i) => (
              <div key={i} className="bg-white p-8 rounded-2xl shadow-md text-center border-b-4 border-accent">
                 <div className="w-16 h-16 bg-[#f8faff] text-accent rounded-full flex items-center justify-center mx-auto mb-6">
-                   {React.cloneElement(item.icon as React.ReactElement, { size: 30 })}
+                   {/* Fixed: Cast to any to allow size prop in cloneElement to resolve TS error */}
+                   {React.cloneElement(item.icon as React.ReactElement<any>, { size: 30 })}
                 </div>
                 <h3 className="text-xl font-bold text-[#031441] mb-2">{item.title}</h3>
                 <p className="text-gray-500">{item.val}</p>
