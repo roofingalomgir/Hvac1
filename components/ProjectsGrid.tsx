@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
+import {Link} from 'react-router-dom';
 
 const PROJECTS = [
   {
@@ -32,10 +33,10 @@ const ProjectsGrid: React.FC = () => {
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-[#031441]">Selected Cases</h2>
           </div>
-          <button className="bg-[#031441] text-white px-8 py-4 rounded font-bold hover:bg-accent transition-all flex items-center space-x-2">
+          <Link to="/services" className="bg-[#031441] text-white px-8 py-4 rounded font-bold hover:bg-accent transition-all flex items-center space-x-2">
             <span>View All Works</span>
             <ArrowRight size={20} className="bg-accent text-white rounded-full p-1" />
-          </button>
+          </Link>
         </div>
 
         <div className="grid grid-cols-1 gap-12">

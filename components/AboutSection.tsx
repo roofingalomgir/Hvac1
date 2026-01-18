@@ -1,6 +1,7 @@
 
 import React, { useState } from 'react';
 import { Check, ArrowRight } from 'lucide-react';
+import {Link} from 'react-router-dom';
 
 type TabId = 'about' | 'mission' | 'vision';
 
@@ -117,10 +118,10 @@ const AboutSection: React.FC = () => {
               </ul>
             </div>
 
-            <button className="bg-[#031441] text-white px-8 py-4 rounded font-bold hover:bg-accent transition-all flex items-center space-x-2">
+            <Link to="/about" className="bg-[#031441] text-white px-8 py-4 rounded font-bold hover:bg-accent transition-all flex items-center space-x-2">
               <span>Discover More</span>
               <ArrowRight size={20} className="bg-accent text-white rounded-full p-1" />
-            </button>
+            </Link>
           </div>
         </div>
       </div>

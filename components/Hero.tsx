@@ -26,10 +26,10 @@ const Hero: React.FC = () => {
             It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum
           </p>
           <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-            <button className="bg-white text-[#031441] px-8 py-4 rounded font-bold hover:bg-accent hover:text-black transition-all flex items-center justify-center space-x-2">
-              <Link to="/services" >Discover More</Link>
-              <ArrowRight size={20} className="bg-accent text-white rounded-full p-1" />
-            </button>
+            <Link to="/Services" className="bg-white text-[#031441] px-8 py-4 rounded font-bold hover:bg-accent hover:text-black transition-all flex items-center justify-center space-x-2">
+              Discover More
+              <ArrowRight size={20} className="bg-accent text-white rounded-full p-1 ml-2" />
+            </Link>
           </div>
         </div>
       </div>
