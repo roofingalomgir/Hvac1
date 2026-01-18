@@ -1,0 +1,7 @@
+{
+  "name": "Copy of hvac 2",
+  "description": "A premium, professional multi-page website for HVAC installation, repair, and maintenance services, featuring modern design and responsive layouts.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
