@@ -133,11 +133,11 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
               We specialize in top-quality HVAC services, ensuring your indoor comfort all year round. From repairs to installations, we have you covered.
             </p>
             <div className="flex space-x-3">
-              {SOCIAL_LINKS.map((link, idx) => (
-                <a key={idx} href={link.url} className="w-10 h-10 border border-white/20 rounded flex items-center justify-center hover:bg-accent hover:border-accent transition-all">
-                  {link.icon}
+              
+                <a href="#" className="w-10 h-10 border border-white/20 rounded flex items-center justify-center hover:bg-accent hover:border-accent transition-all">
+                  <Facebook size={18} />
                 </a>
-              ))}
+
             </div>
           </div>
 

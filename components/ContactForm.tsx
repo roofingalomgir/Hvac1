@@ -26,7 +26,7 @@ const ContactForm: React.FC = () => {
            </div>
            
            <div className="lg:w-1/2 relative min-h-[400px]">
-              <img src="https://picsum.photos/seed/contact-img/800/1000" alt="Multimeter measurement" className="w-full h-full object-cover" />
+              <img src="https://www.crisdel.com/wp-content/uploads/2022/04/TYPES-OF-EMERGENCY-REPAIRS.jpg" alt="Multimeter measurement" className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-[#031441]/20" />
            </div>
         </div>

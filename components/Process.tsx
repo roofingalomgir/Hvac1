@@ -46,7 +46,7 @@ const Process: React.FC = () => {
           </div>
           <div className="relative">
             <img 
-              src="https://picsum.photos/seed/process/800/1000" 
+              src="https://qualityheating.com/wp-content/uploads/2023/09/Why-Is-Regular-HVAC-Maintenance-a-Smart-Investment.jpg" 
               alt="Technician consultation" 
               className="rounded-3xl shadow-2xl"
             />

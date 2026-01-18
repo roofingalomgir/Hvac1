@@ -6,17 +6,17 @@ const PROJECTS = [
   {
     title: 'Provided rapid-response repair services for sudden AC failures',
     category: 'Air Conditioning / Repair',
-    image: 'https://picsum.photos/seed/p1/800/600',
+    image: 'https://rapidresponseacservices.com/_astro/duct-cleaning.BnWTNqd8_Ztu8g3.webp',
   },
   {
     title: 'Diagnosed and repaired cooling issues in split and window',
     category: 'Air Conditioning / Repair',
-    image: 'https://picsum.photos/seed/p2/800/600',
+    image: 'https://muscatrepair.com/wp-content/uploads/2025/08/professional-electrician-leading-team-hvac-600nw-2485364979.jpg',
   },
   {
     title: 'Performed full system inspections, cleaning and performance',
     category: 'Air Conditioning / Repair',
-    image: 'https://picsum.photos/seed/p3/800/600',
+    image: 'https://cdn.prod.website-files.com/6357b0096d8e4d7519d7a69f/6538858285e2969731656015_Hvac%20worker%20Inspection.webp',
   }
 ];
 

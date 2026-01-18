@@ -13,7 +13,6 @@ const About: React.FC = () => {
       </div>
       <AboutSection />
       <Process />
-      <Team />
     </div>
   );
 };

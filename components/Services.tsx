@@ -7,7 +7,7 @@ const SERVICES_DATA = [
     id: 'ac-install', 
     icon: <Settings />, 
     title: 'AC Installation', 
-    image: 'https://images.unsplash.com/photo-1581094288338-2314dddb7ecc?q=80&w=800&auto=format&fit=crop',
+    image: 'https://airtasker-seo-assets-prod.s3.amazonaws.com/en_US/1742460159447-air-conditioner-installation-cost-hero.jpg',
     detailTitle: 'Professional Cooling System Installation for Home & Office',
     detailDesc: 'Our certified technicians ensure your new AC unit is installed with precision, maximizing energy efficiency and lifespan from day one.',
     features: [
@@ -21,7 +21,7 @@ const SERVICES_DATA = [
     id: 'thermostat', 
     icon: <Thermometer />, 
     title: 'Thermostat Install', 
-    image: 'https://images.unsplash.com/photo-1567016376408-0226e4d0c1ea?q=80&w=800&auto=format&fit=crop',
+    image: 'https://superiorhomesupplies.com/cdn/shop/articles/diy-thermostat-installation-how-to-choose-and-install-your-thermostat-996447.webp?v=1742622958',
     detailTitle: 'Smart Climate Control for Modern Living Spaces',
     detailDesc: 'Upgrade to smart thermostats that learn your habits and save you money. We handle the wiring and setup of all major smart home brands.',
     features: [
@@ -35,7 +35,7 @@ const SERVICES_DATA = [
     id: 'emergency', 
     icon: <ShieldAlert />, 
     title: 'Emergency Repair', 
-    image: 'https://images.unsplash.com/photo-1621905252507-b354bcadcabc?q=80&w=800&auto=format&fit=crop',
+    image: 'https://www.crisdel.com/wp-content/uploads/2022/04/TYPES-OF-EMERGENCY-REPAIRS.jpg',
     detailTitle: '24/7 Rapid Response for Critical HVAC Failures',
     detailDesc: 'When your AC fails in the peak of summer, every minute counts. Our emergency team is available around the clock to restore your comfort.',
     features: [
@@ -49,7 +49,7 @@ const SERVICES_DATA = [
     id: 'maintenance', 
     icon: <Wrench />, 
     title: 'Full Maintenance', 
-    image: 'https://images.unsplash.com/photo-1590483734724-38fa19dd24f1?q=80&w=800&auto=format&fit=crop',
+    image: 'https://qualityheating.com/wp-content/uploads/2023/09/Why-Is-Regular-HVAC-Maintenance-a-Smart-Investment.jpg',
     detailTitle: 'Preventative Care for Peak Seasonal Performance',
     detailDesc: 'Avoid costly breakdowns with our comprehensive maintenance plans. Regular service keeps your energy bills low and air quality high.',
     features: [

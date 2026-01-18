@@ -10,10 +10,7 @@ const ProjectsPage: React.FC = () => {
         <p className="text-gray-400">Home / Projects</p>
       </div>
       <ProjectsGrid />
-      <div className="container mx-auto px-4 pb-24 text-center">
-        <p className="text-gray-500 mb-8 max-w-2xl mx-auto">We take pride in our precision and dedication to every project, whether it's a small residential repair or a massive industrial installation.</p>
-        <button className="bg-accent text-white px-12 py-5 rounded-full font-bold hover:bg-[#031441] transition-all">LOAD MORE PROJECTS</button>
-      </div>
+     
     </div>
   );
 };
